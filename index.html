@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Praktický rozcestník ověřených cest k online výdělku.">
+  <title>Výdělek — najděte si cestu k online příjmu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav wrap">
+    <a class="brand" href="#" aria-label="Výdělek, domů">
+      <span class="brand-mark">V</span><span>výdělek</span>
+    </a>
+    <nav aria-label="Hlavní navigace">
+      <a href="#moznosti">Možnosti</a>
+      <a href="#plan">Jak začít</a>
+      <a href="#kalkulacka">Kalkulačka</a>
+    </nav>
+    <a class="nav-cta" href="#moznosti">Najít směr <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> Bez rychlého zbohatnutí. S reálným plánem.</div>
+        <h1>Vydělávejte online.<br><em>Po svém.</em></h1>
+        <p>Praktický rozcestník cest, které dávají smysl. Vyberte si podle času, zkušeností a cíle — a udělejte první krok ještě dnes.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#moznosti">Prozkoumat možnosti <span>→</span></a>
+          <a class="text-link" href="#plan"><span class="play">▶</span> Jak to funguje</a>
+        </div>
+        <div class="trust">
+          <div><strong>6</strong><span>praktických cest</span></div>
+          <div><strong>0 Kč</strong><span>potřeba na start</span></div>
+          <div><strong>30 min</strong><span>k prvnímu kroku</span></div>
+        </div>
+      </div>
+      <div class="hero-visual" aria-label="Ukázka přehledu výdělků">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="float-card mini-card">
+          <span class="mini-icon">↗</span>
+          <div><b>+ 4 800 Kč</b><small>tento měsíc</small></div>
+        </div>
+        <div class="dashboard">
+          <div class="dash-top"><span>Moje cíle</span><button aria-label="Další možnosti">•••</button></div>
+          <small>Měsíční cíl</small>
+          <div class="amount">12 000 <i>Kč</i></div>
+          <div class="progress"><span></span></div>
+          <div class="progress-label"><span>Splněno 68 %</span><b>8 160 Kč</b></div>
+          <div class="chart" aria-hidden="true">
+            <span style="--h:34%"></span><span style="--h:48%"></span><span style="--h:42%"></span><span style="--h:64%"></span><span style="--h:58%"></span><span style="--h:83%"></span><span class="active" style="--h:72%"></span>
+          </div>
+          <div class="days"><span>Po</span><span>Út</span><span>St</span><span>Čt</span><span>Pá</span><span>So</span><span>Ne</span></div>
+        </div>
+        <div class="float-card skill-card">
+          <div class="skill-icon">✦</div>
+          <div><small>Nejlepší shoda</small><b>Freelancing</b><span>92% shoda</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="paths" id="moznosti">
+      <div class="wrap">
+        <div class="section-heading">
+          <div><span class="section-kicker">MOŽNOSTI</span><h2>Vyberte si svou cestu</h2></div>
+          <p>Nejlepší cesta není ta nejrychlejší. Je to ta, kterou dokážete dělat dlouhodobě.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filtrovat možnosti">
+          <button class="active" data-filter="all">Všechny</button>
+          <button data-filter="rychle">Rychlý start</button>
+          <button data-filter="dovednost">Podle dovedností</button>
+          <button data-filter="pasivni">Dlouhodobý růst</button>
+        </div>
+        <div class="cards" id="cards">
+          <article class="path-card featured" data-category="rychle dovednost">
+            <div class="card-icon purple">↗</div><span class="badge">Nejrychlejší start</span>
+            <h3>Freelancing</h3><p>Nabídněte své dovednosti firmám a klientům — od psaní přes grafiku až po programování.</p>
+            <div class="card-meta"><span><small>Start</small><b>1–7 dní</b></span><span><small>Potenciál</small><b>10–80 tis. / měs.</b></span></div>
+            <a href="#plan">Začít s freelancingem <span>→</span></a>
+          </article>
+          <article class="path-card" data-category="rychle">
+            <div class="card-icon yellow">▣</div>
+            <h3>Online doučování</h3><p>Učte jazyky, matematiku nebo nástroje, které ovládáte. Individuálně i ve skupině.</p>
+            <div class="card-meta"><span><small>Start</small><b>2–5 dní</b></span><span><small>Potenciál</small><b>5–30 tis. / měs.</b></span></div>
+            <a href="#plan">Zjistit více <span>→</span></a>
+          </article>
+          <article class="path-card" data-category="pasivni dovednost">
+            <div class="card-icon coral">◫</div>
+            <h3>Digitální produkty</h3><p>Vytvořte šablonu, e-book nebo mini kurz jednou a prodávejte ho opakovaně.</p>
+            <div class="card-meta"><span><small>Start</small><b>2–4 týdny</b></span><span><small>Potenciál</small><b>3–100 tis. / měs.</b></span></div>
+            <a href="#plan">Zjistit více <span>→</span></a>
+          </article>
+          <article class="path-card" data-category="pasivni dovednost">
+            <div class="card-icon blue">◉</div>
+            <h3>Tvorba obsahu</h3><p>Budujte publikum skrze video, newsletter nebo podcast a monetizujte důvěru.</p>
+            <div class="card-meta"><span><small>Start</small><b>Dnes</b></span><span><small>Potenciál</small><b>0–100+ tis. / měs.</b></span></div>
+            <a href="#plan">Zjistit více <span>→</span></a>
+          </article>
+          <article class="path-card" data-category="rychle">
+            <div class="card-icon green">✓</div>
+            <h3>Virtuální asistence</h3><p>Pomáhejte podnikatelům s e-maily, kalendářem, rešeršemi nebo zákaznickou péčí.</p>
+            <div class="card-meta"><span><small>Start</small><b>3–10 dní</b></span><span><small>Potenciál</small><b>8–35 tis. / měs.</b></span></div>
+            <a href="#plan">Zjistit více <span>→</span></a>
+          </article>
+          <article class="path-card" data-category="pasivni">
+            <div class="card-icon pink">◇</div>
+            <h3>Affiliate marketing</h3><p>Doporučujte služby, které znáte, a získejte provizi z uskutečněných nákupů.</p>
+            <div class="card-meta"><span><small>Start</small><b>1–3 týdny</b></span><span><small>Potenciál</small><b>1–50 tis. / měs.</b></span></div>
+            <a href="#plan">Zjistit více <span>→</span></a>
+          </article>
+        </div>
+        <p class="note">Uvedené částky jsou orientační, nikoli zaručené. Výsledek závisí na zkušenostech, trhu a věnovaném čase.</p>
+      </div>
+    </section>
+
+    <section class="steps wrap" id="plan">
+      <div class="section-heading centered"><div><span class="section-kicker">PRVNÍ KROKY</span><h2>Začněte jednoduše</h2></div><p>Nemusíte mít dokonalý plán. Potřebujete ověřit, za co jsou lidé ochotni zaplatit.</p></div>
+      <div class="step-grid">
+        <article><span>01</span><h3>Vyberte jednu cestu</h3><p>Začněte u toho, co už umíte, a dejte si 30 dní bez přeskakování.</p></article>
+        <article><span>02</span><h3>Vytvořte malou nabídku</h3><p>Popište konkrétní výsledek, termín a férovou cenu. Jednoduše a srozumitelně.</p></article>
+        <article><span>03</span><h3>Oslovte první lidi</h3><p>Pošlete pět osobních nabídek denně. Zpětnou vazbu použijte ke zlepšení.</p></article>
+      </div>
+    </section>
+
+    <section class="calculator" id="kalkulacka">
+      <div class="wrap calc-inner">
+        <div><span class="section-kicker">REALISTICKÝ CÍL</span><h2>Kolik času potřebujete?</h2><p>Nastavte si měsíční cíl a svou hodinovou sazbu. Hned uvidíte, co to znamená v praxi.</p></div>
+        <div class="calc-card">
+          <label>Měsíční cíl <output id="goalOutput">15 000 Kč</output><input id="goal" type="range" min="5000" max="60000" step="1000" value="15000"></label>
+          <label>Hodinová sazba <output id="rateOutput">500 Kč</output><input id="rate" type="range" min="150" max="2000" step="50" value="500"></label>
+          <div class="result"><span>Potřebujete přibližně</span><strong id="hours">30 hodin</strong><small id="weekly">tedy 7,5 hodiny týdně</small></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap"><a class="brand" href="#"><span class="brand-mark">V</span><span>výdělek</span></a><p>Žádné zkratky. Jen poctivý online výdělek.</p><span>© 2026</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
